@@ -1,3 +1,17 @@
+# My Studies
+this project is a study page consisting of adding and removing tasks, you can also mark the task as completed by clicking on the task
+
+## involved:
+Front-End: @mateusmatosleonardo (me)
+<br>
+Design: @BarretoJ20
+
+## project image
+![mystudies](https://user-images.githubusercontent.com/73812069/133009088-895576fc-3f98-453c-8b5b-052c7858c769.png)
+
+
+## Below is a description of how to use the project, I will soon put it on the air 👇
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
