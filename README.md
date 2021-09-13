@@ -6,6 +6,14 @@ Front-End: @mateusmatosleonardo (me)
 <br>
 Design: @BarretoJ20
 
+## how to use
+1. click on the plus sign point_right  👉 (+)
+2. write a task and click save
+3. when finishing a task just click on it to scratch it
+4. to remove the task click (x) next to the task
+
+### feel free to use the project wink! 🤗
+
 ## project image
 ![mystudies](https://user-images.githubusercontent.com/73812069/133009088-895576fc-3f98-453c-8b5b-052c7858c769.png)
 
