@@ -1,7 +1,7 @@
 # My Studies
 this project is a study page consisting of adding and removing tasks, you can also mark the task as completed by clicking on the task
 
-## involved:
+## involveds:
 Front-End: @mateusmatosleonardo (me)
 <br>
 Design: @BarretoJ20
