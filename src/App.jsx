@@ -50,18 +50,30 @@ function App(){
     /* CLOCK */
 
     setInterval(()=>{
-        var currentTime = new Date()
+
+        let currentTime = new Date()
+
         let hours = currentTime.getHours()
         let minutes = currentTime.getMinutes()
         let seconds = currentTime.getSeconds()
 
-        document.getElementById('clock').innerHTML = hours.toString() + ':' + minutes.toString() + ':' + seconds.toString()
+        function format_time(time){
+            if(time >= 0 && time <= 9){
+                var formatted_time = time.toString()
+                formatted_time = "0" + formatted_time
+            }else{
+                var formatted_time = time.toString() 
+            }
+            return formatted_time
+        }
+
+        document.getElementById('clock').innerHTML = format_time(hours) + ':' + format_time(minutes) + ':' + format_time(seconds)
 
     }, 1000)
 
-    var today = new Date()
-    var hour = today.getHours()
-    var message;
+    let today = new Date()
+    let hour = today.getHours()
+    let message;
 
     if(hour >= 18){
         message = 'Boa noite'
