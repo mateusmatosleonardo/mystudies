@@ -62,7 +62,7 @@ function App(){
                 var formatted_time = time.toString()
                 formatted_time = "0" + formatted_time
             }else{
-                var formatted_time = time.toString() 
+                formatted_time = time.toString() 
             }
             return formatted_time
         }
@@ -76,11 +76,11 @@ function App(){
     let message;
 
     if(hour >= 18){
-        message = 'Boa noite'
+        message = 'Boa noite 🌙'
     }else if(hour > 12){
-        message = 'Boa tarde'
+        message = 'Boa tarde ⛅️'
     }else if(hour > 0){
-        message = 'Bom dia'
+        message = 'Bom dia ☀️'
     }else{
         message = 'Seja bem vindo!'
     }
@@ -95,8 +95,8 @@ function App(){
                 <div className="modal">
                     <div className="container-modal">
                         <h3>Add task</h3>
-                        <input id="content-task" type="text" placeholder="add a task"/>
-                        <button onClick={()=>saveTask()}>Save</button>
+                        <input id="content-task" type="text" placeholder="adicione uma atividade"/>
+                        <button onClick={()=>saveTask()}>Salvar</button>
                     </div>
                 </div>
                 :
